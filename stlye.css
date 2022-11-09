@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > *{
+    margin: 20px;
+}
+
+
+#inputTask > *{
+    font-size: 24px;
+}
+
+#numberOfTask{
+    font-size: 20px;
+    font-style: italic;
+}
+section{
+    border-bottom: 2px solid green;
+    display: flex;
+    flex-direction: row;
+}
+
+section > *{
+    margin: 20px;
+}
+
+section > p{
+    text-align: left;
+    min-width: 20vw;
+    font-size: 24px;
+}
+
+
+section > .marked{
+    text-decoration: line-through;
+    background-color: green;
+}
+
+section > .unmarked{
+    text-decoration: none;
+}
